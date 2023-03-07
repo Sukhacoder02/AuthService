@@ -14,5 +14,5 @@ app.get('/', (req, res) => {
 app.use('/api', router);
 
 app.listen(port, () => {
-  console.log(`Server is  listening at http://localhost:${port}`);
+  console.log(` Auth Server is  listening at http://localhost:${port}`);
 });
